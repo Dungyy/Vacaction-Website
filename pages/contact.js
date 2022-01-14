@@ -1,17 +1,30 @@
-
-import Navbar from './Components/Navbar/Navbar'
 import Head from 'next/head'
+import styled from 'styled-components'
 
 export default function Contact() {
   return (
     <>
       <Head>
-      <title>Contact</title>
-        <meta name="description" content="Vacation app" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Contact Page</title>
+        <link href='./Home'  />
       </Head>
-      <Navbar />
-      <h1>Contact</h1>
+      <Hero>
+        <Heading>Contact</Heading>
+      </Hero>
     </>
   )
 }
+
+const Hero = styled.div`
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+`
+
+const Heading = styled.h1`
+  color: #000;
+  font-size: 18rem;
+  font-weight: 900;
+`

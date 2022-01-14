@@ -26,6 +26,14 @@ border-radius: 50px;
 
 export const TitleLink = styled.a`
 font-size: 25px;
+font-family: 'Roboto';
+src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
+    font-weight: 200;
+    font-style: italic;
 margin-left: 2rem;
 transition: 0.3s ease;
 color: white;
